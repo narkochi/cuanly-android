@@ -227,7 +227,7 @@ private fun CuanlyApp(vm: CuanlyViewModel) {
 private fun HomeScreen(income: Long, expenses: Long, active: Int, lowStock: Int, productCount: Int, orderCount: Int) {
     LazyColumn(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         item {
-            Text("Halo, Boss Q 😬", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+            Text("Hallo, Boss Q 😬", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
             Text("Ringkasan usaha kamu hari ini.", color = Color.Gray)
         }
         item {
