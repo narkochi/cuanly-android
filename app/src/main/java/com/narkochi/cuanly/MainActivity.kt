@@ -173,8 +173,8 @@ private fun CuanlyApp(vm: CuanlyViewModel) {
         ) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Column(Modifier.weight(1f)) {
-                    Text("CUANLY", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.ExtraBold, color = Lilac)
-                    Text("Catat. Pantau. Bertumbuh.", style = MaterialTheme.typography.bodyMedium, color = Plum)
+                    Text("Cuanly", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.ExtraBold, color = Lilac)
+                    Text("Catat. Pantau. Cuan.", style = MaterialTheme.typography.bodyMedium, color = Plum)
                 }
                 Surface(color = PaleLilac, shape = RoundedCornerShape(16.dp)) {
                     Icon(Icons.Default.AccountBalanceWallet, null, tint = Lilac, modifier = Modifier.padding(12.dp).size(28.dp))
@@ -227,7 +227,7 @@ private fun CuanlyApp(vm: CuanlyViewModel) {
 private fun HomeScreen(income: Long, expenses: Long, active: Int, lowStock: Int, productCount: Int, orderCount: Int) {
     LazyColumn(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         item {
-            Text("Halo, Pebisnis! ✨", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+            Text("Halo, Bos Q ✨", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
             Text("Ringkasan usaha kamu hari ini.", color = Color.Gray)
         }
         item {
